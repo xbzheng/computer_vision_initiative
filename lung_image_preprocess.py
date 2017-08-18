@@ -1,5 +1,5 @@
 """
-work in progress
+work in progress as 08/18/2017
 """
 
 # This Python 2 environment comes with many helpful analytics libraries installed
