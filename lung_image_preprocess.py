@@ -344,10 +344,7 @@ def LoadLungData(DicomPath, labelsPath, nSize = [1,229,229], nRes = [0.6,0.6,0.6
 	                    'HighBit', 'PixelRepresentation','ImageOrientation',
 	                    'SpecificCharacterSet', 'SOPClassUID', 'SOPInstanceUID',
 	                    'StudyInstanceUID', 'DicomPath'])
-	    
-
-
-
+	
 	# Turn into numpy arrays
 	ImgData = np.vstack(ImgData).astype(np.float32)
 	ImgLabel = np.array(ImgLabel).astype(np.int8)
